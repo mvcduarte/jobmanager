@@ -1,0 +1,20 @@
+2                                                [Number of fits to run]
+/home/mvcduarte/BC03_spectra/                 [base_dir]
+./                          [obs_dir]
+./                          [mask_dir]
+./                          [out_dir]
+-2007200                                         [your phone number]
+4730.0                                           [llow_SN]   lower-lambda of S/N window
+4780.0                                           [lupp_SN]   upper-lambda of S/N window
+3400.0                                           [Olsyn_ini] lower-lambda for fit
+8900.0                                           [Olsyn_fin] upper-lambda for fit
+1.0                                              [Odlsyn]    delta-lambda for fit
+1.0                                              [fscale_chi2] fudge-factor for chi2
+FIT                                              [FIT/FXK] Fit or Fix kinematics
+1                                                [IsErrSpecAvailable]  1/0 = Yes/No
+1                                                [IsFlagSpecAvailable] 1/0 = Yes/No
+0414.51901.393.cxt   StCv04.C11.config   Base.BC03.N   Masks.EmLines.SDSS.gm   CCM   0.0   150.0   0414.51901.393.cxt.sc4.C11.im.CCM.BN
+0784.52327.478.cxt   StCv04.C11.config   Base.BC03.N   Masks.EmLines.SDSS.gm   CCM   0.0   150.0   0784.52327.478.cxt.sc4.C11.im.CCM.BN
+
+Example of 2 SDSS galaxies fitted with Base.BC03.N (45 components), CCM law, etc.
+Cid@Lagoa - 29/March/2007
