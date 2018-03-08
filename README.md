@@ -16,12 +16,14 @@ grid_example2.in \
 grid_example3.in
 ...
 
-The jobmanager script starts the jobs: Starlight.exe < grid_example1.in > output_grid_example1.in &
+How do the jobmanager script start the jobs?
+
+Starlight.exe < grid_example1.in > output_grid_example1.in &
+
 However, it can be changed in the syntax of the bash script. 
 
 The jobmanager will automatically show in your terminal the new jobs which just started while the old ones were finished.
 
 ## WARRANTY
 
-
-WARRANTY: This script is ONLY tested on Bash 3.2 on Mac. Please, test this script using a short list of processes to not overflow your processor. :)
+WARRANTY: This script is ONLY tested on Bash 3.2 in Mac. Please, test this script using a short list of processes to avoid overflow your computer with a bunch of processes. :)
